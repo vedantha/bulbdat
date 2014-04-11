@@ -77,17 +77,23 @@ h1#title-tag{
 	width:100%;
 	height: auto;
 	position: absolute;
-	left: -200px;
-	top: -500px;
+	left: 95px;
+	top: 208px;
 }
 h2#caption{
 	color: #FFFEFE;
 	font-family: Dense;
 	font-size: 30px;
 	position: absolute;
-	top: 450px;
-	left: 450px;
+	top: 420px;
+	left: 490px;
 	width: 280px;
 	text-shadow: 0 0 1px #FFFEFE;
 	letter-spacing: 1px;
+}
+#showreel{
+	width:100%;
+	position: absolute;
+	top: -210px;
+	left: 0px;
 }
