@@ -77,8 +77,8 @@ h1#title-tag{
 	width:100%;
 	height: auto;
 	position: absolute;
-	left: 95px;
-	top: 208px;
+	left: -338px;
+	top: -600px;
 }
 h2#caption{
 	color: #FFFEFE;
@@ -88,12 +88,26 @@ h2#caption{
 	top: 420px;
 	left: 490px;
 	width: 280px;
-	text-shadow: 0 0 1px #FFFEFE;
-	letter-spacing: 1px;
+/*	text-shadow: 0 0 1px #FFFEFE;
+*/	letter-spacing: 1px;
+	font-weight: 100;
 }
 #showreel{
 	width:100%;
 	position: absolute;
 	top: -210px;
 	left: 0px;
+}
+#star{
+	width : 100%;
+	position: absolute;
+	top : -180px;
+	right: -50px;
+	z-index: 100;
+}
+#int-line{
+	position: absolute;
+	top : 1480px;
+	right: 450px;
+	z-index: 200;
 }
