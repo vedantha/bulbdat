@@ -1,0 +1,93 @@
+/* Font Definitions*/
+/**/
+@font-face{
+	font-family: AleoL;
+	src : url(fonts/Aleo-Light.otf);
+}
+/*Bulb name text font*/
+@font-face{
+	font-family: Neoterique;
+	src : url(fonts/Neoterique.ttf);
+}
+/*"WE ARE" font type*/
+@font-face{
+	font-family: tall;
+	src : url(fonts/tall.ttf);
+}
+/* Nav bar font*/
+@font-face{
+	font-family: Gothic;
+	src: url(fonts/GOTHIC.TTF);
+}
+@font-face{
+	font-family: Dense;
+	src : url(fonts/Dense-Regular.otf);
+}
+/*--------------------------------------------------*/
+body{
+	background: #000;
+	border: 0;
+	padding: 0;
+	overflow-x : hidden;
+	height: 100%;
+}
+ul li {
+	font-family: Gothic;
+	color: #FFF;
+	font-size: 20px;
+	z-index: 10000;
+	list-style: none;
+	display: inline;
+}
+nav{
+	position: absolute;
+	top: 10px;
+	right: 200px;
+	word-spacing: 50px;
+}
+#top-bg{
+	width:100%; 
+	height : 'auto';
+	margin-top:-210px;
+	z-index: -10;
+}
+h1#title-tag{
+	color: #D2A605;
+	position: absolute;
+	top: 140px;
+	left: 300px;
+	z-index: 10000;
+	font-family: tall;
+	font-size: 70px;
+	letter-spacing: 5px;
+	text-shadow : 0 0 1px #D2A605;
+}
+#bulb{
+	color: #F0F0F0;
+	position: absolute;
+	top: 140px;
+	left: 440px;
+	font-family: Neoterique;
+	z-index: 10000;
+	font-size: 140px;
+	letter-spacing: 10px;
+	text-shadow : 0 0 1px #F0F0F0;
+}
+#line-1{
+	width:100%;
+	height: auto;
+	position: absolute;
+	left: -200px;
+	top: -500px;
+}
+h2#caption{
+	color: #FFFEFE;
+	font-family: Dense;
+	font-size: 30px;
+	position: absolute;
+	top: 450px;
+	left: 450px;
+	width: 280px;
+	text-shadow: 0 0 1px #FFFEFE;
+	letter-spacing: 1px;
+}
